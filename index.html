@@ -111,7 +111,7 @@
 
         img {
             width: 60%;
-            max-width: 200px;
+            max-width: 150px;
             border-radius: 10px;
             margin: 20px 0;
         }
@@ -172,15 +172,16 @@
             <span class="close" onclick="closeModal()">&times;</span>
             <h2>🎈 Surprise ! 🎂</h2>
             <img src="image/WhatsApp Image 2024-11-11 à 15.23.24_4e51b0de.jpg" alt="Anniversaire">
+            <video controls autoplay width="100%">
+                <source src="video/joyeux-anniversaire-à-la-congolaise.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise vidéo.
+            </video>
             <p>Nous espérons que cette journée sera aussi spéciale que toi !</p>
         </div>
     </div>
-
     
-    <video controls autoplay width="100%">
-        <source src="video/joyeux-anniversaire-à-la-congolaise.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la balise vidéo.
-    </video>
+    
+    
     <script>
         function createConfetti() {
             const confetti = document.createElement('div');
@@ -209,5 +210,6 @@
             document.getElementById('modal').style.display = 'none';
         }
     </script>
+    
 </body>
 </html>
